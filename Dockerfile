@@ -1,4 +1,4 @@
 FROM node:10.14
-RUN npm ci
+RUN npm install
 
-WORKDIR .
+RUN ls -la
