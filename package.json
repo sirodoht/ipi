@@ -1,11 +1,11 @@
 {
   "name": "ipi",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Returns public IP",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "prettier --write index.js"
   },
   "author": "sirodoht",
   "license": "MIT",
