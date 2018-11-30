@@ -1,2 +1,2 @@
-FROM node:10.14.1
+FROM node:10.14
 RUN npm install
