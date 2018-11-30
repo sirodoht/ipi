@@ -4,4 +4,4 @@ RUN ls -la
 
 COPY . /code
 WORKDIR /code
-RUN npm install
+RUN npm ci
